@@ -16,6 +16,7 @@ const getTea = (numOfCups) => {
   return teaCups;
 };
 
+// TODO
 // The tea4TeamFCC variable should hold 40 cups of tea for the team.
 // The tea4TeamFCC variable should hold cups of green tea.
 
