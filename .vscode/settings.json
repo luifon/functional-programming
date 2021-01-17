@@ -1,0 +1,11 @@
+{
+    "eslint.codeAction.showDocumentation": {
+
+        "enable": false,
+    },
+    "jslint.version": "es6",
+    "jslint.options": {
+        "single": true,
+        "for": true,
+    }
+}
