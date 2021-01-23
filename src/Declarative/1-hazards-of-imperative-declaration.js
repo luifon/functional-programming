@@ -48,4 +48,5 @@ var finalTabs = socialWindow
   .tabOpen() // Open a new tab for cat memes
   .join(videoWindow.tabClose(2)) // Close third tab in video window, and join
   .join(workWindow.tabClose(1).tabOpen());
-console.log(finalTabs.tabs);
+
+exports.getFinalTabs = () => finalTabs;

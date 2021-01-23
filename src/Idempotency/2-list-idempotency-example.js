@@ -8,10 +8,12 @@ const allWorkers = [
 ];
 
 const filterAssociates = (associateName, list) => {
-  return list.filter((a) => a.localeCompare(associateName));
+  // TODO change below
+  return list;
+  // change above
 };
 
 const workersOnly = filterAssociates('Jorge', allWorkers);
 
-console.log('Workers only:', workersOnly);
-console.log('All workers:', allWorkers);
+exports.getWorkersOnly = () => workersOnly;
+exports.getAllWorkers = () => allWorkers;

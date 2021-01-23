@@ -30,4 +30,5 @@ const tea4GreenTeamFCC = null;
 const tea4BlackTeamFCC = null;
 // Only change code above this line
 
-console.log(tea4GreenTeamFCC, tea4BlackTeamFCC);
+exports.getGreen = () => tea4GreenTeamFCC;
+exports.getBlack = () => tea4BlackTeamFCC;

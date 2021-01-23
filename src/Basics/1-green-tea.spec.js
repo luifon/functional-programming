@@ -1,0 +1,48 @@
+const { getTea4TeamFCC } = require('./1-green-tea');
+
+const _40_size_array = [
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+  'greenTea',
+];
+test('should output amount of getTea4TeamFCC', () => {
+  const tea4teamFCC = getTea4TeamFCC();
+  expect(tea4teamFCC).toEqual(_40_size_array);
+});

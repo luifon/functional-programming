@@ -10,3 +10,6 @@ var fixedValue = 4;
 function incrementer() {
   // Only change code above this line
 }
+
+exports.getFixedValues = () => fixedValue;
+exports.getIncrementer = () => incrementer(); //TODO change here if needed
